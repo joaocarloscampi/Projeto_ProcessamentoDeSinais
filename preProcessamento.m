@@ -5,16 +5,16 @@ clc
 close all
 
 %% Leitura de dados
-data = csvread("Data/S14_data.csv",1,0);
-labels = csvread("Data/S14_labels.csv",2,0);
+data = csvread("Data/S19_data.csv",1,0);
+labels = csvread("Data/S19_labels.csv",3,0);
 
 %% Variaveis - Alterar conforme a necessidade
 
 % Titulo do arquivo de salvamento
-titulo = "Amostra_14";
+titulo = "Amostra_5";
 
 % Flag de plotar os gráficos
-plotFigures = false;
+plotFigures = true;
 
 % Frequência de amostragem
 Fs = 250;
