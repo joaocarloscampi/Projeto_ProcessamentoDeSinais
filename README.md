@@ -16,12 +16,12 @@ Este repositório está organizado de duas formas. As pastas contém os dados ut
 - **Teste:** Amostras processadas pelo arquivo preProcessamento.m utilizadas para a validação das redes neurais
 
 ## Arquivos
-- analiseFourier.m: Arquivo auxiliar para analisar o espectro de frequência de uma única piscada, para projeto dos filtros digitais
-- baseDeDados.m: Arquivo para criar as bases de dados formatadas como a rede neural precisa, tanto de teste quanto de validação, para a rede que utiliza apenas os dados dos sensores
-- baseDeDados_Filtro.m: Semelhante a baseDeDados, mas cria as bases com os dados dos sensores e energia, e só com energia
-- energiaSinal.m: Função pra calcular a energia do sinal filtrado
-- filtragemBanco.m: Implementação do banco de filtros, retornando a energia do sinal para cada filtro
-- preProcessamento.m: Arquivo responsável por criar as amostras a partir da base de dados original, aplicando o detrend
+- **analiseFourier.m:** Arquivo auxiliar para analisar o espectro de frequência de uma única piscada, para projeto dos filtros digitais
+- **baseDeDados.m:** Arquivo para criar as bases de dados formatadas como a rede neural precisa, tanto de teste quanto de validação, para a rede que utiliza apenas os dados dos sensores
+- **baseDeDados_Filtro.m:** Semelhante a baseDeDados, mas cria as bases com os dados dos sensores e energia, e só com energia
+- **energiaSinal.m:** Função pra calcular a energia do sinal filtrado
+- **filtragemBanco.m:** Implementação do banco de filtros, retornando a energia do sinal para cada filtro
+- **preProcessamento.m:** Arquivo responsável por criar as amostras a partir da base de dados original, aplicando o detrend
 
 ## Rede Neural
 As redes utilizadas nesse projeto foram criadas utilizando o App Neural Net Pattern Recognition do MATLAB, a partir dos dados gerados nos arquivos baseDeDados explicados acima.
